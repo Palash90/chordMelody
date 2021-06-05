@@ -1,0 +1,263 @@
+{
+  "name": "Programmatically",
+  "dir": "./",
+  "length": 16,
+  "noteRangeLow": 55,
+  "noteRangeHigh": 77,
+  "excludedNotes": [],
+  "endWithFirstChord": true,
+  "tempo": 90,
+  "auxilaryNotes": {
+    "55": [
+      57
+    ],
+    "57": [
+      55,
+      59
+    ],
+    "59": [
+      59,
+      60
+    ],
+    "60": [
+      59,
+      62
+    ],
+    "62": [
+      60,
+      64
+    ],
+    "64": [
+      62,
+      65
+    ],
+    "65": [
+      64,
+      67
+    ],
+    "67": [
+      65,
+      69
+    ],
+    "69": [
+      67,
+      71
+    ],
+    "71": [
+      69,
+      72
+    ],
+    "72": [
+      71,
+      74
+    ],
+    "74": [
+      72,
+      76
+    ],
+    "76": [
+      74,
+      77
+    ],
+    "77": [
+      76
+    ]
+  },
+  "chords": [
+    {
+      "name": "C Major",
+      "lowOctaveNotes": [
+        48,
+        52,
+        55
+      ],
+      "middleOctaveNotes": [
+        60,
+        64,
+        67
+      ],
+      "highOctaveNotes": [
+        72,
+        76,
+        79
+      ],
+      "passingNotes": [
+        50,
+        53,
+        62,
+        65,
+        74,
+        77
+      ],
+      "chordbotSignature": {
+        "type": "Maj",
+        "root": "C"
+      }
+    },
+    {
+      "name": "F Major",
+      "lowOctaveNotes": [
+        48,
+        53,
+        57
+      ],
+      "middleOctaveNotes": [
+        60,
+        65,
+        69
+      ],
+      "highOctaveNotes": [
+        72,
+        77,
+        81
+      ],
+      "passingNotes": [
+        50,
+        52,
+        55,
+        62,
+        64,
+        67,
+        74,
+        76,
+        79
+      ],
+      "chordbotSignature": {
+        "type": "Maj",
+        "root": "F"
+      }
+    },
+    {
+      "name": "G Major",
+      "lowOctaveNotes": [
+        50,
+        55,
+        59
+      ],
+      "middleOctaveNotes": [
+        62,
+        67,
+        71
+      ],
+      "highOctaveNotes": [
+        74,
+        79,
+        83
+      ],
+      "passingNotes": [
+        52,
+        53,
+        57,
+        64,
+        65,
+        69,
+        76,
+        77,
+        81
+      ],
+      "chordbotSignature": {
+        "type": "Maj",
+        "root": "G"
+      }
+    },
+    {
+      "name": "A Minor",
+      "lowOctaveNotes": [
+        48,
+        52,
+        57
+      ],
+      "middleOctaveNotes": [
+        60,
+        64,
+        69
+      ],
+      "highOctaveNotes": [
+        72,
+        76,
+        81
+      ],
+      "passingNotes": [
+        50,
+        53,
+        55,
+        62,
+        65,
+        67,
+        74,
+        77,
+        79
+      ],
+      "chordbotSignature": {
+        "type": "Min",
+        "root": "A"
+      }
+    },
+    {
+      "name": "D Minor",
+      "lowOctaveNotes": [
+        50,
+        53,
+        57
+      ],
+      "middleOctaveNotes": [
+        62,
+        65,
+        69
+      ],
+      "highOctaveNotes": [
+        74,
+        77,
+        81
+      ],
+      "passingNotes": [
+        52,
+        55,
+        64,
+        67,
+        76,
+        79
+      ],
+      "chordbotSignature": {
+        "type": "Min",
+        "root": "D"
+      }
+    },
+    {
+      "name": "C Major 7",
+      "lowOctaveNotes": [
+        48,
+        52,
+        55,
+        59
+      ],
+      "middleOctaveNotes": [
+        60,
+        64,
+        67,
+        71
+      ],
+      "highOctaveNotes": [
+        72,
+        76,
+        79,
+        83
+      ],
+      "passingNotes": [
+        50,
+        53,
+        57,
+        62,
+        65,
+        69,
+        74,
+        77,
+        81
+      ],
+      "chordbotSignature": {
+        "type": "Maj7",
+        "root": "C"
+      }
+    }
+  ]
+}

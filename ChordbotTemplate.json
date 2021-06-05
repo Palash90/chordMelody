@@ -1,0 +1,350 @@
+{
+  "fileType": "chordbot-song",
+  "tempo": 60,
+  "editMode": 0,
+  "songName": "Programatical",
+  "sections": [
+    {
+      "keyMode": "Maj",
+      "name": "Section 1",
+      "style": {
+        "preset": 2,
+        "tracks": [
+          {
+            "volume": 3,
+            "id": 195
+          },
+          {
+            "volume": 7,
+            "id": 16
+          }
+        ],
+        "chorus": 4,
+        "reverb": 8
+      },
+      "chords": [
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "A",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "C",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "G",
+          "duration": 4
+        },
+        {
+          "type": "Min",
+          "root": "D",
+          "duration": 4
+        },
+        {
+          "type": "Maj",
+          "root": "F",
+          "duration": 4
+        }
+      ],
+      "keyRoot": "C"
+    }
+  ]
+}
