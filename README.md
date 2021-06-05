@@ -125,3 +125,4 @@ what is going on, simply copy and paste this field in each chord.
 As the name suggests, it is a simple one to one mapping from midi note numbers to human readable music notation.
 
 Populate this file as per your requirement. following table can help you with the note number and note.
+![alt text](https://raw.githubusercontent.com/Palash90/chordMelody/main/midi%20note%20numbers.png)
