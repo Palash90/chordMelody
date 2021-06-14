@@ -1,93 +1,93 @@
 {
   "name": "Programmatically",
   "dir": "./",
-  "length": 16,
-  "noteRangeLow": 55,
-  "noteRangeHigh": 77,
+  "length": 36,
+  "noteRangeLow": "G3",
+  "noteRangeHigh": "F5",
   "excludedNotes": [],
   "endWithFirstChord": true,
-  "tempo": 90,
+  "tempo": 72,
   "auxilaryNotes": {
-    "55": [
-      57
+    "G3": [
+      "A3"
     ],
-    "57": [
-      55,
-      59
+    "A3": [
+      "G3",
+      "B3"
     ],
-    "59": [
-      59,
-      60
+    "B3": [
+      "B3",
+      "C4"
     ],
-    "60": [
-      59,
-      62
+    "C4": [
+      "B3",
+      "D4"
     ],
-    "62": [
-      60,
-      64
+    "D4": [
+      "C4",
+      "E4"
     ],
-    "64": [
-      62,
-      65
+    "E4": [
+      "D4",
+      "F4"
     ],
-    "65": [
-      64,
-      67
+    "F4": [
+      "E4",
+      "G4"
     ],
-    "67": [
-      65,
-      69
+    "G4": [
+      "F4",
+      "A4"
     ],
-    "69": [
-      67,
-      71
+    "A4": [
+      "G4",
+      "B4"
     ],
-    "71": [
-      69,
-      72
+    "B4": [
+      "A4",
+      "C5"
     ],
-    "72": [
-      71,
-      74
+    "C5": [
+      "B4",
+      "D5"
     ],
-    "74": [
-      72,
-      76
+    "D5": [
+      "C5",
+      "E5"
     ],
-    "76": [
-      74,
-      77
+    "E5": [
+      "D5",
+      "F5"
     ],
-    "77": [
-      76
+    "F5": [
+      "E5"
     ]
   },
   "chords": [
     {
       "name": "C Major",
       "lowOctaveNotes": [
-        48,
-        52,
-        55
+        "C3",
+        "E3",
+        "G3"
       ],
       "middleOctaveNotes": [
-        60,
-        64,
-        67
+        "C4",
+        "E4",
+        "G4"
       ],
       "highOctaveNotes": [
-        72,
-        76,
-        79
+        "C5",
+        "E5",
+        "G5"
       ],
       "passingNotes": [
-        50,
-        53,
-        62,
-        65,
-        74,
-        77
+        "D3",
+        "F3",
+        "D4",
+        "F4",
+        "D5",
+        "F5"
       ],
       "chordbotSignature": {
         "type": "Maj",
@@ -97,30 +97,30 @@
     {
       "name": "F Major",
       "lowOctaveNotes": [
-        48,
-        53,
-        57
+        "C3",
+        "F3",
+        "A3"
       ],
       "middleOctaveNotes": [
-        60,
-        65,
-        69
+        "C4",
+        "F4",
+        "A4"
       ],
       "highOctaveNotes": [
-        72,
-        77,
-        81
+        "C5",
+        "F5",
+        "A5"
       ],
       "passingNotes": [
-        50,
-        52,
-        55,
-        62,
-        64,
-        67,
-        74,
-        76,
-        79
+        "D3",
+        "E3",
+        "G3",
+        "D4",
+        "E4",
+        "G4",
+        "D5",
+        "E5",
+        "G5"
       ],
       "chordbotSignature": {
         "type": "Maj",
@@ -130,30 +130,30 @@
     {
       "name": "G Major",
       "lowOctaveNotes": [
-        50,
-        55,
-        59
+        "D3",
+        "G3",
+        "B3"
       ],
       "middleOctaveNotes": [
-        62,
-        67,
-        71
+        "D4",
+        "G4",
+        "B4"
       ],
       "highOctaveNotes": [
-        74,
-        79,
-        83
+        "D5",
+        "G5",
+        "B5"
       ],
       "passingNotes": [
-        52,
-        53,
-        57,
-        64,
-        65,
-        69,
-        76,
-        77,
-        81
+        "E3",
+        "F3",
+        "A3",
+        "E4",
+        "F4",
+        "A4",
+        "E5",
+        "F5",
+        "A5"
       ],
       "chordbotSignature": {
         "type": "Maj",
@@ -163,30 +163,30 @@
     {
       "name": "A Minor",
       "lowOctaveNotes": [
-        48,
-        52,
-        57
+        "C3",
+        "E3",
+        "A3"
       ],
       "middleOctaveNotes": [
-        60,
-        64,
-        69
+        "C4",
+        "E4",
+        "A4"
       ],
       "highOctaveNotes": [
-        72,
-        76,
-        81
+        "C5",
+        "E5",
+        "A5"
       ],
       "passingNotes": [
-        50,
-        53,
-        55,
-        62,
-        65,
-        67,
-        74,
-        77,
-        79
+        "D3",
+        "F3",
+        "G3",
+        "D4",
+        "F4",
+        "G4",
+        "D5",
+        "F5",
+        "G5"
       ],
       "chordbotSignature": {
         "type": "Min",
@@ -196,27 +196,27 @@
     {
       "name": "D Minor",
       "lowOctaveNotes": [
-        50,
-        53,
-        57
+        "D3",
+        "F3",
+        "A3"
       ],
       "middleOctaveNotes": [
-        62,
-        65,
-        69
+        "D4",
+        "F4",
+        "A4"
       ],
       "highOctaveNotes": [
-        74,
-        77,
-        81
+        "D5",
+        "F5",
+        "A5"
       ],
       "passingNotes": [
-        52,
-        55,
-        64,
-        67,
-        76,
-        79
+        "E3",
+        "G3",
+        "E4",
+        "G4",
+        "E5",
+        "G5"
       ],
       "chordbotSignature": {
         "type": "Min",
@@ -226,33 +226,33 @@
     {
       "name": "C Major 7",
       "lowOctaveNotes": [
-        48,
-        52,
-        55,
-        59
+        "C3",
+        "E3",
+        "G3",
+        "B3"
       ],
       "middleOctaveNotes": [
-        60,
-        64,
-        67,
-        71
+        "C4",
+        "E4",
+        "G4",
+        "B4"
       ],
       "highOctaveNotes": [
-        72,
-        76,
-        79,
-        83
+        "C5",
+        "E5",
+        "G5",
+        "B5"
       ],
       "passingNotes": [
-        50,
-        53,
-        57,
-        62,
-        65,
-        69,
-        74,
-        77,
-        81
+        "D3",
+        "F3",
+        "A3",
+        "D4",
+        "F4",
+        "A4",
+        "D5",
+        "F5",
+        "A5"
       ],
       "chordbotSignature": {
         "type": "Maj7",

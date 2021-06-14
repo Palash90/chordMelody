@@ -91,7 +91,11 @@ for i in choices:
 
         filteredNotes = []
         for note in totalNotes:
-            if config["noteRangeLow"] <= note <= config["noteRangeHigh"] and note not in excludedNotes:
+            noteRangeLow = midiNumberToNote[config["noteRangeLow"]]
+            noteNumber = midiNumberToNote[note]
+            noteRangeHigh = midiNumberToNote[config["noteRangeHigh"]]
+
+            if noteRangeLow <= noteNumber <= noteRangeHigh and note not in excludedNotes:
                 filteredNotes.append(note)
 
         permutedNotes = permutations(filteredNotes)
@@ -128,20 +132,20 @@ for i in choices:
                 if duration <= 2:
                     addPassing = bool(random.getrandbits(1))
                     if addPassing and passingNote is not None:
-                        noteSequence.append({"note": midiNumberToNote[str(passingNote)], "duration": duration * 0.5})
-                        mf.addNote(track, channel, passingNote, time, duration * 0.5, volume)
+                        noteSequence.append({"note": passingNote, "duration": duration * 0.5})
+                        mf.addNote(track, channel, midiNumberToNote[str(passingNote)], time, duration * 0.5, volume)
                         time = time + duration * 0.5
                     else:
-                        noteSequence.append({"note": midiNumberToNote[str(note)], "duration": duration * 0.5})
-                        mf.addNote(track, channel, note, time, duration * 0.5, volume)
+                        noteSequence.append({"note": note, "duration": duration * 0.5})
+                        mf.addNote(track, channel, midiNumberToNote[note], time, duration * 0.5, volume)
                         time = time + duration * 0.5
                 else:
                     fullNotes = int(duration / 2)
                     halfNote = int(duration % 2)
 
                     for fullNote in range(fullNotes - 1):
-                        noteSequence.append({"note": midiNumberToNote[str(note)], "duration": 1})
-                        mf.addNote(track, channel, note, time, 1, volume)
+                        noteSequence.append({"note": note, "duration": 1})
+                        mf.addNote(track, channel, midiNumberToNote[note], time, 1, volume)
                         time = time + 1
 
                     auxilaryNote = None
@@ -150,20 +154,20 @@ for i in choices:
                     auxilaryNote = auxilaryNotes[0]
 
                     if auxilaryNote is not None:
-                        noteSequence.append({"note": midiNumberToNote[str(auxilaryNote)], "duration": 0.5})
-                        mf.addNote(track, channel, auxilaryNote, time, 0.5, volume)
+                        noteSequence.append({"note": auxilaryNote, "duration": 0.5})
+                        mf.addNote(track, channel, midiNumberToNote[str(auxilaryNote)], time, 0.5, volume)
                         time = time + 0.5
-                        noteSequence.append({"note": midiNumberToNote[str(note)], "duration": 0.5})
-                        mf.addNote(track, channel, note, time, 0.5, volume)
+                        noteSequence.append({"note": note, "duration": 0.5})
+                        mf.addNote(track, channel, midiNumberToNote[note], time, 0.5, volume)
                         time = time + 0.5
                     else:
-                        noteSequence.append({"note": midiNumberToNote[str(note)], "duration": 1})
-                        mf.addNote(track, channel, note, time, 1, volume)
+                        noteSequence.append({"note": note, "duration": 1})
+                        mf.addNote(track, channel, midiNumberToNote[note], time, 1, volume)
                         time = time + 1
 
                     if halfNote != 0:
-                        noteSequence.append({"note": midiNumberToNote[str(note)], "duration": 0.5})
-                        mf.addNote(track, channel, note, time, 0.5, volume)
+                        noteSequence.append({"note": note, "duration": 0.5})
+                        mf.addNote(track, channel, midiNumberToNote[note], time, 0.5, volume)
                         time = time + 0.5
 
 chordbotTemplate["tempo"] = config["tempo"]
