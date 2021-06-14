@@ -2,7 +2,7 @@
   "name": "Programmatically",
   "dir": "./",
   "beatsPerBar": 3,
-  "length": 3,
+  "length": 300,
   "noteRangeLow": "G3",
   "noteRangeHigh": "F5",
   "preferredSequences": [
@@ -11,7 +11,9 @@
       "G4"
     ]
   ],
-  "excludedNotes": [],
+  "excludedNotes": [
+    "F5"
+  ],
   "endWithFirstChord": true,
   "tempo": 72,
   "auxilaryNotes": {
