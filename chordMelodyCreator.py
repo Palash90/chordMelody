@@ -13,6 +13,28 @@ def sums(length, total_sum):
                 yield (value,) + permutation
 
 
+def is_Sublist(l, s):
+    sub_set = False
+    if s == []:
+        sub_set = True
+    elif s == l:
+        sub_set = True
+    elif len(s) > len(l):
+        sub_set = False
+
+    else:
+        for i in range(len(l)):
+            if l[i] == s[0]:
+                n = 1
+                while (n < len(s)) and (l[i + n] == s[n]):
+                    n += 1
+
+                if n == len(s):
+                    sub_set = True
+
+    return sub_set
+
+
 def permutations(lst):
     if len(lst) <= 1:
         return [lst]  # [[X]]
@@ -102,7 +124,7 @@ for i in choices:
         random.shuffle(permutedNotes)
         chosenNoteSequence = permutedNotes[0]
 
-        L = list(sums(len(filteredNotes), 4 * 2))
+        L = list(sums(len(filteredNotes), config["beatsPerBar"] * 2))
         random.shuffle(L)
         chosenDurationSequence = L[0]
 

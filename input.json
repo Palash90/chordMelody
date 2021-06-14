@@ -1,8 +1,8 @@
 {
   "name": "Programmatically",
   "dir": "./",
-  "beatsPerBar": 4,
-  "length": 36,
+  "beatsPerBar": 3,
+  "length": 3,
   "noteRangeLow": "G3",
   "noteRangeHigh": "F5",
   "preferredSequences": [
