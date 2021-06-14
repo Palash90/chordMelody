@@ -1,9 +1,16 @@
 {
   "name": "Programmatically",
   "dir": "./",
+  "beatsPerBar": 4,
   "length": 36,
   "noteRangeLow": "G3",
   "noteRangeHigh": "F5",
+  "preferredSequences": [
+    [
+      "A4",
+      "G4"
+    ]
+  ],
   "excludedNotes": [],
   "endWithFirstChord": true,
   "tempo": 72,

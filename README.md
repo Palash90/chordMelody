@@ -21,7 +21,7 @@ This is a step-by-step process.
 
 1. Select Chords of your choice
 1. Fill up the `input.json` as per requirement
-1. Fill up the `midiNumberToNote.json` as per your requirement.
+1. Fill up the `noteToMidiNumber.json` as per your requirement.
 1. Run the `chordMelodyCreator.py`
 1. Import the generated MIDI in DAW and use Soundfont of your choice
 
@@ -56,17 +56,26 @@ this name too.
 
 The directory where the output will be generated
 
+* beatsPerBar
+
+Number of beats in each bar. This is to help generate 3/4 or 4/4 music
+
 * length
 
-The length of the composition. Each unit will have 4 beats.
+The length of the composition.
 
 * noteRangeLow
 
-The lowest midi note number in the composition.
+The lowest note in the composition.
 
 * noteRangeHigh
 
-The highest midi note number in the comosition.
+The highest note in the comosition.
+
+* preferredSequences
+
+This is an array of arrays. The inner arrays are sequences that you want to have in your composition. This is useful if
+you are working with Indian Raga sequence.
 
 * excludedNotes
 
@@ -120,7 +129,7 @@ script.
 This field is a little tricky to explain if you do not have experience with Chordbot. In case, you do not understand
 what is going on, simply copy and paste this field in each chord.
 
-### `midiNumberToNote.json`
+### `noteToMidiNumber.json`
 
 As the name suggests, it is a simple one to one mapping from midi note numbers to human readable music notation.
 
