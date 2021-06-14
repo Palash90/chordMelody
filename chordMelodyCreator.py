@@ -29,7 +29,7 @@ def permutations(lst):
 inputFile = open('input.json')
 config = json.load(inputFile)
 
-midiNumberToNote = json.load(open('midiNumberToNote.json'))
+noteToMidiNumber = json.load(open('noteToMidiNumber.json'))
 
 chordbotTemplateFile = open('ChordbotTemplate.json')
 chordbotTemplate = json.load(chordbotTemplateFile)
@@ -91,9 +91,9 @@ for i in choices:
 
         filteredNotes = []
         for note in totalNotes:
-            noteRangeLow = midiNumberToNote[config["noteRangeLow"]]
-            noteNumber = midiNumberToNote[note]
-            noteRangeHigh = midiNumberToNote[config["noteRangeHigh"]]
+            noteRangeLow = noteToMidiNumber[config["noteRangeLow"]]
+            noteNumber = noteToMidiNumber[note]
+            noteRangeHigh = noteToMidiNumber[config["noteRangeHigh"]]
 
             if noteRangeLow <= noteNumber <= noteRangeHigh and note not in excludedNotes:
                 filteredNotes.append(note)
@@ -133,11 +133,11 @@ for i in choices:
                     addPassing = bool(random.getrandbits(1))
                     if addPassing and passingNote is not None:
                         noteSequence.append({"note": passingNote, "duration": duration * 0.5})
-                        mf.addNote(track, channel, midiNumberToNote[str(passingNote)], time, duration * 0.5, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[str(passingNote)], time, duration * 0.5, volume)
                         time = time + duration * 0.5
                     else:
                         noteSequence.append({"note": note, "duration": duration * 0.5})
-                        mf.addNote(track, channel, midiNumberToNote[note], time, duration * 0.5, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[note], time, duration * 0.5, volume)
                         time = time + duration * 0.5
                 else:
                     fullNotes = int(duration / 2)
@@ -145,7 +145,7 @@ for i in choices:
 
                     for fullNote in range(fullNotes - 1):
                         noteSequence.append({"note": note, "duration": 1})
-                        mf.addNote(track, channel, midiNumberToNote[note], time, 1, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[note], time, 1, volume)
                         time = time + 1
 
                     auxilaryNote = None
@@ -155,19 +155,19 @@ for i in choices:
 
                     if auxilaryNote is not None:
                         noteSequence.append({"note": auxilaryNote, "duration": 0.5})
-                        mf.addNote(track, channel, midiNumberToNote[str(auxilaryNote)], time, 0.5, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[str(auxilaryNote)], time, 0.5, volume)
                         time = time + 0.5
                         noteSequence.append({"note": note, "duration": 0.5})
-                        mf.addNote(track, channel, midiNumberToNote[note], time, 0.5, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[note], time, 0.5, volume)
                         time = time + 0.5
                     else:
                         noteSequence.append({"note": note, "duration": 1})
-                        mf.addNote(track, channel, midiNumberToNote[note], time, 1, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[note], time, 1, volume)
                         time = time + 1
 
                     if halfNote != 0:
                         noteSequence.append({"note": note, "duration": 0.5})
-                        mf.addNote(track, channel, midiNumberToNote[note], time, 0.5, volume)
+                        mf.addNote(track, channel, noteToMidiNumber[note], time, 0.5, volume)
                         time = time + 0.5
 
 chordbotTemplate["tempo"] = config["tempo"]
