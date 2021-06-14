@@ -2,7 +2,7 @@
   "name": "Programmatically",
   "dir": "./",
   "beatsPerBar": 3,
-  "length": 300,
+  "length": 30,
   "noteRangeLow": "G3",
   "noteRangeHigh": "F5",
   "preferredSequences": [

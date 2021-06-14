@@ -143,8 +143,8 @@ for i in choices:
                 random.shuffle(passingNoteArr)
                 if len(passingNoteArr) > 0:
                     passingNote = passingNoteArr[0]
-                    if config['noteRangeLow'] <= passingNote <= config[
-                        'noteRangeHigh'] and passingNote not in excludedNotes:
+                    if config['noteRangeLow'] <= passingNote <= config['noteRangeHigh'] \
+                            and passingNote not in excludedNotes:
                         pass
                     else:
                         passingNote = None
